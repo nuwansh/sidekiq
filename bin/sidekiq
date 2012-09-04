@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/sidekiq/cli'
+#require_relative '../lib/sidekiq/cli'
+require 'sidekiq/cli'
 
 begin
   cli = Sidekiq::CLI.instance
